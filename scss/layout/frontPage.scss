@@ -1,0 +1,81 @@
+body{
+    background-color: $color-quaternary;
+}
+.frontPage{
+    background-color: $color-primary;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: $color-quinary;
+        font-size: 300%;
+    }
+    a{
+        background-color: $color-tertiary;
+        border-radius: 20px;
+        color: $color-quinary;
+        padding: 0.5% 2% 0.5% 2%;
+    }
+}
+.brands{
+    width: 100vw;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        color: $color-quinary;
+        font-size: 150%;
+        margin-top: 5%;
+    }
+    div{
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            max-width: 150px;
+        }
+    }
+}
+
+#prices{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .card{
+        width: 300px;
+        height: 400px;
+        margin: 5% 2% 5% 0%;
+        background-color: $color-secondary;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            color: $color-quinary;
+            margin-left: 14%;
+        }
+        .priceCard{
+            color: $color-quinary;
+            font-size: 350%;
+            margin: 14%;
+        }
+        a{
+            background-color: $color-tertiary;
+            color: $color-secondary;
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 5%;
+            text-align: center;
+            font-size: 120%;
+            border-radius: 15px;
+        }        
+    }    
+}

@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Poppins regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+* {
+  font-family: "Poppins Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+}
+
+header {
+  background-color: #fb5e33;
+  height: 99px;
+}
+header div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+header div a {
+  max-height: 99px;
+}
+header div a img {
+  max-width: 99px;
+}
+header div nav {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+header div nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header div nav ul li {
+  list-style: none;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+header div nav ul li a {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.frontPage {
+  background-color: #fb5e33;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.frontPage h1 {
+  color: #fff;
+  font-size: 300%;
+}
+.frontPage a {
+  background-color: #feb449;
+  border-radius: 20px;
+  color: #fff;
+  padding: 0.5% 2% 0.5% 2%;
+}
+
+.brands {
+  width: 100vw;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.brands p {
+  color: #fff;
+  font-size: 150%;
+  margin-top: 5%;
+}
+.brands div {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.brands div img {
+  max-width: 150px;
+}
+
+#prices {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#prices .card {
+  width: 300px;
+  height: 400px;
+  margin: 5% 2% 5% 0%;
+  background-color: #53afbe;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#prices .card p {
+  color: #fff;
+  margin-left: 14%;
+}
+#prices .card .priceCard {
+  color: #fff;
+  font-size: 350%;
+  margin: 14%;
+}
+#prices .card a {
+  background-color: #feb449;
+  color: #53afbe;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 120%;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=app.css.map */
